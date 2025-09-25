@@ -1,6 +1,6 @@
 <h4 align="right"> 
 <span href=".README.md">English</span> 
-<a href="http://www.pakeplus.com/" 
+<a href="https://www.pakeplus.com/zh/" 
 style="margin: 0 10px;" >简体中文</a> 
 <a href="https://github.com/Sjj1024/PakePlus/discussions/108">日本语</a>
 </h4>  
@@ -43,7 +43,6 @@ https://github.com/user-attachments/assets/b88bf541-0b26-4020-9eec-da79e1734fc9
 -   Turn any website into your custom client — inject JS for automation and custom features.
 -   Annoyed by website ads? Hide them with powerful JS.
 -   Want to use Tauri2 but the environment is too heavy? Use PakePlus instead!
-
 
 ## Popular Packages
 
@@ -165,18 +164,14 @@ pnpm run build
 
 ## Support
 
-1. wechat and group
+1. wechat and group，my wechat is lanxingme，welcome to join the wechat group.
  <p align="center" style="display:flex; justify-content: flex-start;" >
-    <img src="https://github.com/Sjj1024/PakePlus/raw/main/docs/static/imgs/mywx.png" width=300/>
-    <img src="https://github.com/Sjj1024/PakePlus/raw/main/docs/static/imgs/wxcode.png" width=300/>
+    <img src="https://github.com/Sjj1024/PakePlus/raw/main/docs/static/imgs/mywx.png" width=200/>
+    <img src="https://github.com/Sjj1024/PakePlus/raw/main/docs/static/imgs/wxcode.png" width=200/>
+    <img src="https://github.com/Sjj1024/PakePlus/raw/main/docs/static/imgs/qq.jpg" width=200/>
  </p>
 
 2. 💖If PakePlus has brought joy to your life, feel free to support it.
  <p align="center" style="display:flex; justify-content: flex-start;">
-    <img src="https://files.pakeplus.com/sponsor.webp" width=620/>
+    <img src="https://github.com/Sjj1024/PakePlus/raw/main/docs/static/imgs/sponsor.webp" width=620/>
  </p>
-
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=Sjj1024/PakePlus&type=Date)](https://www.star-history.com/#Sjj1024/PakePlus&Date)

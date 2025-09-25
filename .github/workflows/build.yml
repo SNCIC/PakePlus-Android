@@ -6,6 +6,11 @@ on:
     #     branches:
     #         - 'main'
 
+permissions:
+    contents: write
+    pages: write
+    id-token: write
+
 jobs:
     build:
         name: Build APK
@@ -34,6 +39,12 @@ jobs:
                   node-version: 20
                   cache: pnpm
 
+            - name: Install ImageMagick
+              run: |
+                  sudo apt-get update
+                  sudo apt-get install imagemagick
+                  convert --version
+
             - name: Init Project Config
               run: |
                   pnpm install
@@ -51,7 +62,7 @@ jobs:
                   mv app-debug.apk ${{ env.NAME }}-v${{ env.VERSION }}.apk
 
             - name: Create GitHub Release
-              uses: softprops/action-gh-release@v2
+              uses: softprops/action-gh-release@v1
               with:
                   files: app/build/outputs/apk/debug/*.apk
                   tag_name: '${{ env.NAME }}'
